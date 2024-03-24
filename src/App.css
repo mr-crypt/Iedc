@@ -15,3 +15,7 @@
 .container.dark{
     background: #023535;
 }
+.textz{
+    position: absolute;
+    top: 90px;
+}

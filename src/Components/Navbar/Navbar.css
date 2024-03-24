@@ -58,11 +58,17 @@ width: 50px;
     filter:invert(0)
 }
 @media screen and (max-width:769px) {
-   .navbar{
+   .dark .navbar{
         z-index: 99;
+        color: #f5eaea;
+    }
+    .light .navbar{
         color: #222;
     }
-    .dark .toogle_img{
+    .light .toogle_img{
+        filter: invert(0);
+    }
+    .toogle_img{
         filter: invert(100%);
     }
     .ul{
@@ -79,7 +85,7 @@ width: 50px;
         font-size: 15px;
         cursor: pointer;
         font-weight:bolder;
-        background-color: #008F8C;
+        background-color: #00000056;
         transition: 0.5s ease-in-out;
     }
     .ul.show{
